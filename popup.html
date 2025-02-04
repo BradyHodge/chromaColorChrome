@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Style Reference Sheet</title>
+  <link rel="stylesheet" href="./popup.css">
+</head>
+<body>
+    <h2>Style Guide</h2>
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Primary Colors</div>
+        <div class="dropdown">
+          <select id="colorCount">
+            <option value="3">Top 3</option>
+            <option value="5">Top 5</option>
+            <option value="10">Top 10</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div id="colors" class="color-grid"></div>
+    </div>
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Typography</div>
+        <div class="dropdown">
+          <select id="fontCount">
+            <option value="3">Top 3</option>
+            <option value="5">Top 5</option>
+            <option value="10">Top 10</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div id="fonts" class="font-list"></div>
+    </div>
+    <div id="copyFeedback" class="copy-feedback">Copied!</div>
+    <script src="popup.js"></script>
+  </body>
+</html>
